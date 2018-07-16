@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+
+  </head>
+  <body>
+    <% include partial/nav.ejs %>
+    <h1>Success</h1>
+    <p>Thanks for reaching out</p>
+    <p><%= data.who %> from the <%= data.department %> will get in touch with you at <%= data.email %> shortly!</p>
+
+  </body>
+</html>
